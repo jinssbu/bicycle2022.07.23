@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 100%;
+}
+
+img{
+  max-width: 100%;
+}
+
+
+/* header */
+header{
+  margin: 0 141px;
+  padding: 0 51px;
+  height: 60px;
+  line-height: 60px;
+  color: #24292e;
+}
+
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-logo img{
+  width: 120px;
+  display: block;
+
+}
+
+.header-nav ul{
+  display: flex;
+}
+
+.header-nav a{
+  margin-left: 30px;
+  font-size: 14.4px;
+  color: #24292e;
+}
+
+.header-nav a:hover{
+  opacity: 0.7;
+}
+
+/* main */
+main{
+  text-align: center;
+  color: #383e45;
+}
+
+.main-image{
+  max-width: 100%;
+  object-fit: cover;
+}
+
+main p{
+  font-size: 14.4px;
+}
+
+/* About */
+h1{
+  font-size: 32px;
+  border-bottom: 1px solid #383e45;
+  margin-bottom: 60px;
+  display: inline-block;
+}
+
+h3{
+  font-size: 16px;
+}
+
+.main-about{
+  margin: 87px 141px 100px 141px;
+}
+
+.about-contents{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-contents img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.text{
+  margin-left: 30px;
+  text-align: left;
+}
+
+.text h3{
+  margin:10px 0;
+}
+
+/* Bicycle */
+.main-bicycle{
+  margin: 100px 100px 110px 100px;
+
+}
+
+
+.bicycle-contents ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bicycle-contents li{
+  width: 32%;
+
+}
+
+/* footer */
+footer{
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer p{
+  font-size: 10px;
+}
